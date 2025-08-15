@@ -1,0 +1,24 @@
+{
+  "name": "@eshaman/oracle-chat",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "eslint": "^9.0.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.24"
+  }
+}
