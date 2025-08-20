@@ -1,12 +1,17 @@
 {
-  "name": "@eshaman/oracle-chat",
+  "name": "eshaman-monorepo",
   "private": true,
+  "packageManager": "pnpm@9",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint . --ext .ts,.tsx",
-    "typecheck": "tsc --noEmit"
+    "dev": "pnpm --filter @eshaman/oracle-chat dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "dev:old": "next dev",
+    "build:old": "next build",
+    "lint:old": "eslint . --ext .ts,.tsx",
+    "typecheck:old": "tsc --noEmit",
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.2.5",
